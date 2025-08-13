@@ -90,13 +90,13 @@ int main() {
     int arr[MAX], n = 0, choice;
 
     do {
-        cout << "\n---- MENU ----\n";
-        cout << "1. CREATE\n";
-        cout << "2. DISPLAY\n";
-        cout << "3. INSERT\n";
-        cout << "4. DELETE\n";
-        cout << "5. LINEAR SEARCH\n";
-        cout << "6. EXIT\n";
+        cout << "\n---- MENU ----"<<endl;
+        cout << "1. CREATE"<<endl;
+        cout << "2. DISPLAY"<<endl;
+        cout << "3. INSERT"<<endl;
+        cout << "4. DELETE"<<endl;
+        cout << "5. LINEAR SEARCH"<<endl;
+        cout << "6. EXIT"<<endl;
         cout << "Enter choice: ";
         cin >> choice;
 
@@ -114,3 +114,4 @@ int main() {
 
     return 0;
 }
+
