@@ -63,7 +63,6 @@ void display() {
 int main() {
     int choice, val;
     do {
-        cout << "\n--- Queue Menu ---\n";
         cout << "1. Enqueue\n2. Dequeue\n3. Peek\n4. Display\n5. Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
@@ -91,3 +90,4 @@ int main() {
     } while (choice != 5);
     return 0;
 }
+
