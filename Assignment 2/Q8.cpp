@@ -31,7 +31,6 @@ int main() {
         }
     }
 
-    cout << "Total number of distinct elements = " << distinctCount << endl;
-
-    return 0;
+    cout << "Total number of distinct elements" << distinctCount;
 }
+
