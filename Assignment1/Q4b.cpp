@@ -3,27 +3,25 @@ using namespace std;
 
 int main() {
     int r1, c1, r2, c2;
-    cout << "Enter rows and cols of first matrix: ";
+    cout << "Enter rows and cols of first matrix";
     cin >> r1 >> c1;
-    cout << "Enter rows and cols of second matrix: ";
+    cout << "Enter rows and cols of second matri";
     cin >> r2 >> c2;
 
     if (c1 != r2) {
-        cout << "Matrix multiplication not possible!\n";
+        cout << "Matrix multiplication not possible";
         return 0;
     }
 
     int mat1[20][20], mat2[20][20], res[20][20] = {0};
 
-    // input first matrix
     cout << "Enter elements of first matrix:\n";
     for (int i = 0; i < r1; i++) {
         for (int j = 0; j < c1; j++) {
             cin >> mat1[i][j];
         }
     }
-
-    // input second matrix
+    
     cout << "Enter elements of second matrix:\n";
     for (int i = 0; i < r2; i++) {
         for (int j = 0; j < c2; j++) {
@@ -31,7 +29,6 @@ int main() {
         }
     }
 
-    // multiplying
     for (int i = 0; i < r1; i++) {
         for (int j = 0; j < c2; j++) {
             int sum = 0;
@@ -42,7 +39,6 @@ int main() {
         }
     }
 
-    // output result
     cout << "Resultant matrix:\n";
     for (int i = 0; i < r1; i++) {
         for (int j = 0; j < c2; j++) {
@@ -51,5 +47,5 @@ int main() {
         cout << endl;
     }
 
-    return 0;
 }
+
