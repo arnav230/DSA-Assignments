@@ -4,11 +4,10 @@ using namespace std;
 int removeDuplicates(int arr[], int n) {
     if (n == 0) return 0;
 
-    int k = 0; // index for placing unique elements
+    int k = 0;
 
     for (int i = 0; i < n; i++) {
         bool isDuplicate = false;
-        // Check if arr[i] appeared before
         for (int j = 0; j < k; j++) {
             if (arr[i] == arr[j]) {
                 isDuplicate = true;
@@ -20,7 +19,7 @@ int removeDuplicates(int arr[], int n) {
             k++;
         }
     }
-    return k; // new size of array
+    return k; 
 }
 
 int main() {
@@ -35,3 +34,4 @@ int main() {
     }
     return 0;
 }
+
