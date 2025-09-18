@@ -41,5 +41,5 @@ int main() {
     transpose(a, t);
     cout<<"Transpose matrix:"<<endl;
     printMatrix(t);
-    return 0;
 }
+
