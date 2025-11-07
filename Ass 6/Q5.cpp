@@ -26,6 +26,4 @@ int main(){
     Node* m2 = new Node(20);
     m1->next = m2; m2->next = NULL; // Not Circular
     cout<<(isCircular(m1)?"Yes":"No")<<endl;
-
-    return 0;
 }
